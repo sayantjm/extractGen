@@ -15,9 +15,9 @@ import java.util.stream.Collectors;
 public class TransformationDetailsCLO implements TransformationDetails {
     @Override
     public List<String> transform() {
-        tflmDto line1 = tflmDto.builder().reportType("CLO").collateralIdentifier("BG1234456_1234").contractIdentifier("LD12345667").branch("840").build();
-        tflmDto line2 = tflmDto.builder().reportType("CLO").collateralIdentifier("BG1234456_1234").contractIdentifier("LD12345667").branch("840").build();
-        tflmDto line3 = tflmDto.builder().reportType("CLO").collateralIdentifier("BG1234456_1234").contractIdentifier("LD12345667").branch("840").build();
+        tflmDto line1 = tflmDto.builder().reportType("CLO").collateralIdentifier("BG1234456_123").contractIdentifier("LD12345667").branch("840").build();
+        tflmDto line2 = tflmDto.builder().reportType("CLO").collateralIdentifier("BG1234456_456").contractIdentifier("LD12345667").branch("840").build();
+        tflmDto line3 = tflmDto.builder().reportType("CLO").collateralIdentifier("BG1234456_789").contractIdentifier("LD12345667").branch("840").build();
 
         List<tflmDto> rowList = Arrays.asList(line1, line2, line3);
 
